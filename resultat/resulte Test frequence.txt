@@ -1,0 +1,1627 @@
+Microsoft Windows [version 10.0.22000.2538]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\hp>cd C:\programme\E25\LLMRandomTests\src
+
+C:\programme\E25\LLMRandomTests\src>javac Testdesnombres.java
+
+C:\programme\E25\LLMRandomTests\src>java Testdesnombres.java
+
+Fichier : C:\programme\E25\LLMRandomTests\data\sequence 1.txt
+Resultat du test de frequence (chi2) : 3,6800
+Degre de liberte : 9
+A comparer avec la valeur critique du chi2 au seuil de 5% : 16.92
+Verdict : Hypothese acceptee (distribution compatible avec l'aleatoire)
+Test des runs :
+Taille de la sequence : 1000
+Nombre de runs observes : 662
+Esperance (mu) : 666,33
+Ecart type (sigma) : 13,32
+Statistique z : 0,33
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 1000 nombres
+Categorie 'tous differents' : 717 (attendu ~ 720,00)
+Categorie 'une paire' : 276 (attendu ~ 270,00)
+Categorie 'trois pareils' : 7 (attendu ~ 10,00)
+Resultat du test chi2 : 1,05
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0048
+Score z : 0,15
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 51,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=10, cellules=100) :
+Chi2 = 111,61 | ddl = 99 | seuil 5% = 123,22
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 4,15 | bacs = 8 | ddl = 7 | seuil 5% = 14,07
+Verdict : Hypothese acceptee
+
+
+=== sequence 1.txt_frag1 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 133
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,00
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 143 (attendu ~ 144,00)
+Categorie 'une paire' : 53 (attendu ~ 54,00)
+Categorie 'trois pareils' : 4 (attendu ~ 2,00)
+Resultat du test chi2 : 2,03
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0678
+Score z : 0,96
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 48,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 40,70 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 2,67 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 1.txt_frag2 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 130
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,51
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 147 (attendu ~ 144,00)
+Categorie 'une paire' : 53 (attendu ~ 54,00)
+Categorie 'trois pareils' : 0 (attendu ~ 2,00)
+Resultat du test chi2 : 2,08
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0621
+Score z : 0,88
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 58,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 32,74 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,39 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 1.txt_frag3 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 131
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,34
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 142 (attendu ~ 144,00)
+Categorie 'une paire' : 57 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 0,69
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0409
+Score z : -0,58
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 44,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 33,10 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,16 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 1.txt_frag4 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 131
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,34
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 143 (attendu ~ 144,00)
+Categorie 'une paire' : 55 (attendu ~ 54,00)
+Categorie 'trois pareils' : 2 (attendu ~ 2,00)
+Resultat du test chi2 : 0,03
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,1046
+Score z : -1,48
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 51,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 33,10 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,55 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 1.txt_frag5 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 134
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,17
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 142 (attendu ~ 144,00)
+Categorie 'une paire' : 58 (attendu ~ 54,00)
+Categorie 'trois pareils' : 0 (attendu ~ 2,00)
+Resultat du test chi2 : 2,32
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0158
+Score z : 0,22
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 53,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 33,82 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,20 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+Fichier : C:\programme\E25\LLMRandomTests\data\sequence 2.txt
+Resultat du test de frequence (chi2) : 2,6800
+Degre de liberte : 9
+A comparer avec la valeur critique du chi2 au seuil de 5% : 16.92
+Verdict : Hypothese acceptee (distribution compatible avec l'aleatoire)
+Test des runs :
+Taille de la sequence : 1000
+Nombre de runs observes : 649
+Esperance (mu) : 666,33
+Ecart type (sigma) : 13,32
+Statistique z : 1,30
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 1000 nombres
+Categorie 'tous differents' : 717 (attendu ~ 720,00)
+Categorie 'une paire' : 273 (attendu ~ 270,00)
+Categorie 'trois pareils' : 10 (attendu ~ 10,00)
+Resultat du test chi2 : 0,05
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0355
+Score z : 1,12
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 34,30 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=10, cellules=100) :
+Chi2 = 86,39 | ddl = 99 | seuil 5% = 123,22
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 7,14 | bacs = 8 | ddl = 7 | seuil 5% = 14,07
+Verdict : Hypothese acceptee
+
+
+=== sequence 2.txt_frag1 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 130
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,51
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 149 (attendu ~ 144,00)
+Categorie 'une paire' : 47 (attendu ~ 54,00)
+Categorie 'trois pareils' : 4 (attendu ~ 2,00)
+Resultat du test chi2 : 3,08
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0167
+Score z : 0,24
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 40,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 23,33 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 1,39 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 2.txt_frag2 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 122
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,85
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 148 (attendu ~ 144,00)
+Categorie 'une paire' : 49 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 1,07
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,1874
+Score z : 2,65
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese rejetee (autocorrelation detectee)
+
+Test d'equidistribution (B=50) :
+Chi2 = 52,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 49,38 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,63 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 2.txt_frag3 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 124
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,52
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 146 (attendu ~ 144,00)
+Categorie 'une paire' : 53 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 0,55
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0037
+Score z : 0,05
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 53,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 32,38 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 1,08 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 2.txt_frag4 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 138
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,84
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 133 (attendu ~ 144,00)
+Categorie 'une paire' : 65 (attendu ~ 54,00)
+Categorie 'trois pareils' : 2 (attendu ~ 2,00)
+Resultat du test chi2 : 3,08
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0572
+Score z : 0,81
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 30,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 41,06 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,71 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 2.txt_frag5 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 135
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,34
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 141 (attendu ~ 144,00)
+Categorie 'une paire' : 59 (attendu ~ 54,00)
+Categorie 'trois pareils' : 0 (attendu ~ 2,00)
+Resultat du test chi2 : 2,53
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,1476
+Score z : -2,09
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese rejetee (autocorrelation detectee)
+
+Test d'equidistribution (B=50) :
+Chi2 = 38,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 33,82 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,33 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+Fichier : C:\programme\E25\LLMRandomTests\data\sequence 3.txt
+Resultat du test de frequence (chi2) : 7,0400
+Degre de liberte : 9
+A comparer avec la valeur critique du chi2 au seuil de 5% : 16.92
+Verdict : Hypothese acceptee (distribution compatible avec l'aleatoire)
+Test des runs :
+Taille de la sequence : 1000
+Nombre de runs observes : 660
+Esperance (mu) : 666,33
+Ecart type (sigma) : 13,32
+Statistique z : 0,48
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 1000 nombres
+Categorie 'tous differents' : 730 (attendu ~ 720,00)
+Categorie 'une paire' : 261 (attendu ~ 270,00)
+Categorie 'trois pareils' : 9 (attendu ~ 10,00)
+Resultat du test chi2 : 0,54
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0042
+Score z : -0,13
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 53,80 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=10, cellules=100) :
+Chi2 = 84,78 | ddl = 99 | seuil 5% = 123,22
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 4,29 | bacs = 7 | ddl = 6 | seuil 5% = 12,59
+Verdict : Hypothese acceptee
+
+
+=== sequence 3.txt_frag1 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 123
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,68
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 164 (attendu ~ 144,00)
+Categorie 'une paire' : 36 (attendu ~ 54,00)
+Categorie 'trois pareils' : 0 (attendu ~ 2,00)
+Resultat du test chi2 : 10,78
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese rejetee (distribution non aleatoire)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0241
+Score z : 0,34
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 40,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 32,02 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,71 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 3.txt_frag2 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 134
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,17
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 142 (attendu ~ 144,00)
+Categorie 'une paire' : 55 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 0,55
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0497
+Score z : -0,70
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 46,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 17,54 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,05 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 3.txt_frag3 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 136
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,51
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 135 (attendu ~ 144,00)
+Categorie 'une paire' : 64 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 2,91
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0124
+Score z : 0,18
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 74,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese rejetee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 50,47 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese rejetee
+
+Gap intervalle [0..99] :
+Chi2 = 0,43 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 3.txt_frag4 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 141
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,35
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 142 (attendu ~ 144,00)
+Categorie 'une paire' : 55 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 0,55
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0537
+Score z : -0,76
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 36,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 37,80 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,83 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 3.txt_frag5 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 124
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,52
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 147 (attendu ~ 144,00)
+Categorie 'une paire' : 51 (attendu ~ 54,00)
+Categorie 'trois pareils' : 2 (attendu ~ 2,00)
+Resultat du test chi2 : 0,23
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0116
+Score z : 0,16
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 44,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 17,18 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,58 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+Fichier : C:\programme\E25\LLMRandomTests\data\sequence 4.txt
+Resultat du test de frequence (chi2) : 1,3800
+Degre de liberte : 9
+A comparer avec la valeur critique du chi2 au seuil de 5% : 16.92
+Verdict : Hypothese acceptee (distribution compatible avec l'aleatoire)
+Test des runs :
+Taille de la sequence : 1000
+Nombre de runs observes : 691
+Esperance (mu) : 666,33
+Ecart type (sigma) : 13,32
+Statistique z : 1,85
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 1000 nombres
+Categorie 'tous differents' : 733 (attendu ~ 720,00)
+Categorie 'une paire' : 257 (attendu ~ 270,00)
+Categorie 'trois pareils' : 10 (attendu ~ 10,00)
+Resultat du test chi2 : 0,86
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0041
+Score z : 0,13
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 45,60 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=10, cellules=100) :
+Chi2 = 84,98 | ddl = 99 | seuil 5% = 123,22
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 5,65 | bacs = 8 | ddl = 7 | seuil 5% = 14,07
+Verdict : Hypothese acceptee
+
+
+=== sequence 4.txt_frag1 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 143
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,68
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 149 (attendu ~ 144,00)
+Categorie 'une paire' : 50 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 0,97
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0411
+Score z : 0,58
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 35,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 35,63 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,01 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 4.txt_frag2 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 131
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,34
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 153 (attendu ~ 144,00)
+Categorie 'une paire' : 45 (attendu ~ 54,00)
+Categorie 'trois pareils' : 2 (attendu ~ 2,00)
+Resultat du test chi2 : 2,06
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0063
+Score z : 0,09
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 47,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 34,55 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 4,38 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese rejetee
+
+
+=== sequence 4.txt_frag3 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 131
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,34
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 144 (attendu ~ 144,00)
+Categorie 'une paire' : 54 (attendu ~ 54,00)
+Categorie 'trois pareils' : 2 (attendu ~ 2,00)
+Resultat du test chi2 : 0,00
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0842
+Score z : 1,19
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 37,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 34,19 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 1,14 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 4.txt_frag4 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 138
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,84
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 136 (attendu ~ 144,00)
+Categorie 'une paire' : 63 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 2,44
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0815
+Score z : -1,15
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 45,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 26,95 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 1,28 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 4.txt_frag5 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 147
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 2,36
+Seuil critique : 1.96
+Verdict : Hypothese rejetee (sequence non aleatoire)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 151 (attendu ~ 144,00)
+Categorie 'une paire' : 45 (attendu ~ 54,00)
+Categorie 'trois pareils' : 4 (attendu ~ 2,00)
+Resultat du test chi2 : 3,84
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0664
+Score z : -0,94
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 62,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 32,38 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,98 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+Fichier : C:\programme\E25\LLMRandomTests\data\sequence 5.txt
+Resultat du test de frequence (chi2) : 8,0600
+Degre de liberte : 9
+A comparer avec la valeur critique du chi2 au seuil de 5% : 16.92
+Verdict : Hypothese acceptee (distribution compatible avec l'aleatoire)
+Test des runs :
+Taille de la sequence : 1000
+Nombre de runs observes : 657
+Esperance (mu) : 666,33
+Ecart type (sigma) : 13,32
+Statistique z : 0,70
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 1000 nombres
+Categorie 'tous differents' : 714 (attendu ~ 720,00)
+Categorie 'une paire' : 276 (attendu ~ 270,00)
+Categorie 'trois pareils' : 10 (attendu ~ 10,00)
+Resultat du test chi2 : 0,18
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0171
+Score z : -0,54
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 48,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=10, cellules=100) :
+Chi2 = 87,79 | ddl = 99 | seuil 5% = 123,22
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 9,80 | bacs = 9 | ddl = 8 | seuil 5% = 15,51
+Verdict : Hypothese acceptee
+
+
+=== sequence 5.txt_frag1 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 132
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,17
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 146 (attendu ~ 144,00)
+Categorie 'une paire' : 53 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 0,55
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0249
+Score z : -0,35
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 59,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 43,95 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,08 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 5.txt_frag2 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 137
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,67
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 138 (attendu ~ 144,00)
+Categorie 'une paire' : 59 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 1,21
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0949
+Score z : -1,34
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 49,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 20,80 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 1,28 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 5.txt_frag3 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 124
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,52
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 140 (attendu ~ 144,00)
+Categorie 'une paire' : 57 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 0,78
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0596
+Score z : 0,84
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 49,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 27,67 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,33 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 5.txt_frag4 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 133
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,00
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 145 (attendu ~ 144,00)
+Categorie 'une paire' : 53 (attendu ~ 54,00)
+Categorie 'trois pareils' : 2 (attendu ~ 2,00)
+Resultat du test chi2 : 0,03
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,1153
+Score z : -1,63
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 35,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 36,36 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,05 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== sequence 5.txt_frag5 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 129
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,67
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 145 (attendu ~ 144,00)
+Categorie 'une paire' : 54 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 0,51
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0864
+Score z : 1,22
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 52,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 49,38 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,33 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== Random(seed=12345) ===
+Test des runs :
+Taille de la sequence : 1000
+Nombre de runs observes : 666
+Esperance (mu) : 666,33
+Ecart type (sigma) : 13,32
+Statistique z : 0,03
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 1000 nombres
+Categorie 'tous differents' : 737 (attendu ~ 720,00)
+Categorie 'une paire' : 249 (attendu ~ 270,00)
+Categorie 'trois pareils' : 14 (attendu ~ 10,00)
+Resultat du test chi2 : 3,63
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0009
+Score z : 0,03
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 38,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=10, cellules=100) :
+Chi2 = 76,98 | ddl = 99 | seuil 5% = 123,22
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 3,79 | bacs = 7 | ddl = 6 | seuil 5% = 12,59
+Verdict : Hypothese acceptee
+
+
+=== Random(seed=12345)_frag1 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 137
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,67
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 147 (attendu ~ 144,00)
+Categorie 'une paire' : 50 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 0,86
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0007
+Score z : 0,01
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 64,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 38,17 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,20 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== Random(seed=12345)_frag2 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 130
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,51
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 143 (attendu ~ 144,00)
+Categorie 'une paire' : 54 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 0,51
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0633
+Score z : 0,89
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 52,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 27,31 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,10 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== Random(seed=12345)_frag3 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 140
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,18
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 149 (attendu ~ 144,00)
+Categorie 'une paire' : 50 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 0,97
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0262
+Score z : -0,37
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 66,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese rejetee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 20,44 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 1,08 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== Random(seed=12345)_frag4 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 130
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,51
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 142 (attendu ~ 144,00)
+Categorie 'une paire' : 55 (attendu ~ 54,00)
+Categorie 'trois pareils' : 3 (attendu ~ 2,00)
+Resultat du test chi2 : 0,55
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0367
+Score z : 0,52
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 65,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 33,10 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,19 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== Random(seed=12345)_frag5 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 127
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,01
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 156 (attendu ~ 144,00)
+Categorie 'une paire' : 40 (attendu ~ 54,00)
+Categorie 'trois pareils' : 4 (attendu ~ 2,00)
+Resultat du test chi2 : 6,63
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese rejetee (distribution non aleatoire)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : -0,0897
+Score z : -1,27
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 43,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 28,76 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,64 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== SecureRandom(SHA1PRNG,seed=98765) ===
+Test des runs :
+Taille de la sequence : 1000
+Nombre de runs observes : 642
+Esperance (mu) : 666,33
+Ecart type (sigma) : 13,32
+Statistique z : 1,83
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 1000 nombres
+Categorie 'tous differents' : 701 (attendu ~ 720,00)
+Categorie 'une paire' : 296 (attendu ~ 270,00)
+Categorie 'trois pareils' : 3 (attendu ~ 10,00)
+Resultat du test chi2 : 7,91
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese rejetee (distribution non aleatoire)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0724
+Score z : 2,29
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese rejetee (autocorrelation detectee)
+
+Test d'equidistribution (B=50) :
+Chi2 = 50,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=10, cellules=100) :
+Chi2 = 101,80 | ddl = 99 | seuil 5% = 123,22
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 2,07 | bacs = 5 | ddl = 4 | seuil 5% = 9,49
+Verdict : Hypothese acceptee
+
+
+=== SecureRandom(SHA1PRNG,seed=98765)_frag1 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 131
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,34
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 145 (attendu ~ 144,00)
+Categorie 'une paire' : 55 (attendu ~ 54,00)
+Categorie 'trois pareils' : 0 (attendu ~ 2,00)
+Resultat du test chi2 : 2,03
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0609
+Score z : 0,86
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 45,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 22,25 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 1,68 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== SecureRandom(SHA1PRNG,seed=98765)_frag2 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 121
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 2,02
+Seuil critique : 1.96
+Verdict : Hypothese rejetee (sequence non aleatoire)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 135 (attendu ~ 144,00)
+Categorie 'une paire' : 64 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 2,91
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0972
+Score z : 1,37
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 84,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese rejetee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 20,80 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 3,92 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese rejetee
+
+
+=== SecureRandom(SHA1PRNG,seed=98765)_frag3 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 128
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,84
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 135 (attendu ~ 144,00)
+Categorie 'une paire' : 64 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 2,91
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0189
+Score z : 0,27
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 41,00 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 36,36 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese acceptee
+
+Gap intervalle [0..99] :
+Chi2 = 0,16 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== SecureRandom(SHA1PRNG,seed=98765)_frag4 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 126
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 1,18
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 147 (attendu ~ 144,00)
+Categorie 'une paire' : 52 (attendu ~ 54,00)
+Categorie 'trois pareils' : 1 (attendu ~ 2,00)
+Resultat du test chi2 : 0,64
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,0375
+Score z : 0,53
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese acceptee (pas d'autocorrelation significative)
+
+Test d'equidistribution (B=50) :
+Chi2 = 69,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese rejetee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 62,41 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese rejetee
+
+Gap intervalle [0..99] :
+Chi2 = 2,16 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+=== SecureRandom(SHA1PRNG,seed=98765)_frag5 ===
+Test des runs :
+Taille de la sequence : 200
+Nombre de runs observes : 136
+Esperance (mu) : 133,00
+Ecart type (sigma) : 5,94
+Statistique z : 0,51
+Seuil critique : 1.96
+Verdict : Hypothese acceptee (sequence compatible avec l'alea)
+
+Test du Poker :
+Total analyse : 200 nombres
+Categorie 'tous differents' : 139 (attendu ~ 144,00)
+Categorie 'une paire' : 61 (attendu ~ 54,00)
+Categorie 'trois pareils' : 0 (attendu ~ 2,00)
+Resultat du test chi2 : 3,08
+Valeur critique pour ddl=2 au seuil 5% : 5.99
+Verdict : Hypothese acceptee (distribution compatible avec l'alea)
+
+Test d'autocorrelation (lag = 1) :
+Coefficient d'autocorrelation r : 0,1394
+Score z : 1,97
+Seuil critique |z| < 1.96 pour 5% de signification
+Verdict : Hypothese rejetee (autocorrelation detectee)
+
+Test d'equidistribution (B=50) :
+Chi2 = 47,50 | ddl = 49 | seuil 5% = 66,33
+Verdict : Hypothese acceptee
+
+Test des series (k=2, m=6, cellules=36) :
+Chi2 = 52,64 | ddl = 35 | seuil 5% = 49,80
+Verdict : Hypothese rejetee
+
+Gap intervalle [0..99] :
+Chi2 = 0,04 | bacs = 2 | ddl = 1 | seuil 5% = 3,84
+Verdict : Hypothese acceptee
+
+
+C:\programme\E25\LLMRandomTests\src>
+
